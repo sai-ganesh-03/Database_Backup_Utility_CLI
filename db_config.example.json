@@ -1,0 +1,21 @@
+{
+  "database": {
+    "host": "localhost",
+    "port": "3306",
+    "user": "root",
+    "password": "pass",
+    "database": "dummy_db"
+  },
+  "aws": {
+    "access_key": "your_aws_access_key",
+    "secret_key": "your_aws_secret_key",
+    "region": "your_aws_region"
+  },
+  "gcs": {
+    "service_account_key": "/path/to/your/service-account-file.json"
+  },
+  "azure": {
+    "connection_string": "your_azure_connection_string"
+  },
+  "slack_webhook": "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
+}
