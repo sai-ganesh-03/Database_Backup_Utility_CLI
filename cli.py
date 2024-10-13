@@ -50,9 +50,6 @@ def main():
     parser.add_argument('--cloud', choices=['s3', 'gcs', 'azure'], help="Cloud storage option")
     parser.add_argument('--bucket', help="Cloud storage bucket name")
     
-    # Slack notification via webhook
-    parser.add_argument('--slack-webhook', help="Slack webhook URL for notifications")
-    
     # Log file argument
     parser.add_argument('--log-file', help="Path to the log file", default='backup.log')
     

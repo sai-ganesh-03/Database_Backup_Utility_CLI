@@ -27,8 +27,8 @@ This CLI tool is designed to facilitate database backup and restoration operatio
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/database-backup-cli.git
-   cd database-backup-cli
+   git clone https://github.com/sai-ganesh-03/Database_Backup_Utility_CLI.git
+   cd Database_Backup_Utility_CLI
    ```
 
 2. **Install dependencies**:
