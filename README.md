@@ -80,7 +80,6 @@ python backup_cli.py [operation] [options]
 - **--backup-file**: Path to the backup file for restoration (only for restore operation).
 - **--cloud**: Specify the cloud storage option (`s3`, `gcs`, `azure`).
 - **--bucket**: Name of the cloud storage bucket (required if cloud is specified).
-- **--slack-webhook**: Slack webhook URL for notifications.
 - **--log-file**: Path to the log file (default is `backup.log`).
 
 ### Examples
